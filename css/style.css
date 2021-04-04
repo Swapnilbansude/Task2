@@ -1,1 +1,41 @@
-
+        .card {
+            height: 400px;
+            width: 600px;
+            margin-left: 300px;
+            margin-top: 100px;
+        }
+        
+        .card-title {
+            font-family: 'Nunito', sans-serif;
+            color: #012970;
+        }
+        
+        label {
+            font-family: 'Nunito', sans-serif;
+        }
+        
+        .btn-grad {
+            background-image: linear-gradient(to right, #314755 0%, #26a0da 51%, #314755 100%)
+        }
+        
+        .btn-grad {
+            margin: 2px;
+            padding: 10px 25px;
+            font-family: 'Nunito';
+            cursor: pointer;
+            text-align: center;
+            text-transform: uppercase;
+            transition: 0.5s;
+            background-size: 200% auto;
+            color: white;
+            box-shadow: 0 0 20px #eee;
+            border-radius: 10px;
+            display: block;
+        }
+        
+        .btn-grad:hover {
+            background-position: right center;
+            /* change the direction of the change here */
+            color: #fff;
+            text-decoration: none;
+        }
